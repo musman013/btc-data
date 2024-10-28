@@ -1,0 +1,73 @@
+/* src/CryptoTradeComponent.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00bcd4; 
+}
+
+.trade-info {
+  font-size: 18px;
+  margin: 10px 0;
+  padding-left: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 8px;
+  width: 300px;
+  text-align: start;
+  color: #ffffff !important;
+
+}
+
+.chart-container {
+  width: 50%; 
+  max-width: 800px; 
+  height: 400px; 
+  margin-top: 20px;
+  border: 1px solid #00bcd4; 
+  border-radius: 8px;
+  color: #ffffff !important;
+
+  overflow: hidden; 
+}
+
+.chart {
+  padding: 20px; 
+}
+.compared {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.compared.increase {
+  color: #4caf50; /* Green for increase */
+}
+
+.compared.decrease {
+  color: #f44336; /* Red for decrease */
+}
+
+@media (max-width: 600px) {
+  .chart-container {
+    width: 90%; 
+    height: 250px; 
+
+  }
+}
